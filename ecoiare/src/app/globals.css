@@ -1,0 +1,125 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Updated to eco-friendly color scheme for waste management app */ /* Clean white background */ /* Dark gray text for legibility */
+  --card: oklch(1 0 0); /* Soft green background for cards */
+  --card-foreground: oklch(0.145 0 0); /* Dark text within cards */
+  --popover: oklch(1 0 0); /* White background for popups */
+  --popover-foreground: oklch(0.145 0 0); /* Dark text for popups */
+  --primary: oklch(0.205 0 0); /* Green for sustainability (green-700) */
+  --primary-foreground: oklch(0.985 0 0); /* White text on primary buttons */
+  --secondary: oklch(0.97 0 0); /* Vibrant lime accent for gamification */
+  --secondary-foreground: oklch(0.205 0 0); /* Dark text for secondary elements */
+  --muted: oklch(0.97 0 0); /* Muted green background */
+  --muted-foreground: oklch(0.556 0 0); /* Medium gray for muted text */
+  --accent: oklch(0.97 0 0); /* Lime accent for points and badges */
+  --accent-foreground: oklch(0.205 0 0); /* White text on accent elements */
+  --destructive: oklch(0.577 0.245 27.325); /* Red for hazardous waste and errors */
+  --destructive-foreground: oklch(1 0 0); /* White text for destructive actions */
+  --border: oklch(0.922 0 0); /* Light border for card separation */
+  --input: oklch(0.922 0 0); /* White input field background */
+  --ring: oklch(0.708 0 0); /* Lime ring color for focused elements */
+  --chart-1: oklch(0.646 0.222 41.116); /* Green for environmental impact charts */
+  --chart-2: oklch(0.6 0.118 184.704); /* Pink for contrasting visuals */
+  --chart-3: oklch(0.398 0.07 227.392); /* Yellow for highlighting achievements */
+  --chart-4: oklch(0.828 0.189 84.429); /* Blue for additional data visuals */
+  --chart-5: oklch(0.769 0.188 70.08); /* Red for hazardous waste tracking */
+  --radius: 0.625rem; /* Rounded corners for friendly feel */
+  --sidebar: oklch(0.985 0 0); /* Light green sidebar background */
+  --sidebar-foreground: oklch(0.145 0 0); /* Dark text in sidebar */
+  --sidebar-primary: oklch(0.205 0 0); /* Green for sidebar actions */
+  --sidebar-primary-foreground: oklch(0.985 0 0); /* White text for sidebar actions */
+  --sidebar-accent: oklch(0.97 0 0); /* Lime accent for sidebar notifications */
+  --sidebar-accent-foreground: oklch(0.205 0 0); /* Dark text for sidebar notifications */
+  --sidebar-border: oklch(0.922 0 0); /* Light border for sidebar separation */
+  --sidebar-ring: oklch(0.708 0 0); /* Lime focus ring for sidebar elements */ --background: oklch(1 0 0); --foreground: oklch(0.145 0 0);
+}
+
+.dark {
+  /* Updated dark mode colors to maintain eco-friendly theme */
+  --background: oklch(0.145 0 0); /* Dark background */
+  --foreground: oklch(0.985 0 0); /* Light text */
+  --card: oklch(0.205 0 0); /* Dark green cards */
+  --card-foreground: oklch(0.985 0 0); /* Light text in cards */
+  --popover: oklch(0.205 0 0); /* Dark popover background */
+  --popover-foreground: oklch(0.985 0 0); /* Light popover text */
+  --primary: oklch(0.922 0 0); /* Brighter green for dark mode */
+  --primary-foreground: oklch(0.205 0 0); /* Dark text on primary */
+  --secondary: oklch(0.269 0 0); /* Brighter lime for dark mode */
+  --secondary-foreground: oklch(0.985 0 0); /* Dark text on secondary */
+  --muted: oklch(0.269 0 0); /* Dark muted green */
+  --muted-foreground: oklch(0.708 0 0); /* Light muted text */
+  --accent: oklch(0.269 0 0); /* Bright lime accent */
+  --accent-foreground: oklch(0.985 0 0); /* Dark text on accent */
+  --destructive: oklch(0.704 0.191 22.216); /* Brighter red for dark mode */
+  --destructive-foreground: oklch(0.95 0 0); /* Light text on destructive */
+  --border: oklch(1 0 0 / 10%); /* Dark border */
+  --input: oklch(1 0 0 / 15%); /* Dark input background */
+  --ring: oklch(0.556 0 0); /* Bright lime ring */
+  --chart-1: oklch(0.488 0.243 264.376); /* Bright green for charts */
+  --chart-2: oklch(0.696 0.17 162.48); /* Bright pink */
+  --chart-3: oklch(0.769 0.188 70.08); /* Bright yellow */
+  --chart-4: oklch(0.627 0.265 303.9); /* Bright blue */
+  --chart-5: oklch(0.645 0.246 16.439); /* Bright red */
+  --sidebar: oklch(0.205 0 0); /* Dark green sidebar */
+  --sidebar-foreground: oklch(0.985 0 0); /* Light sidebar text */
+  --sidebar-primary: oklch(0.488 0.243 264.376); /* Bright green sidebar primary */
+  --sidebar-primary-foreground: oklch(0.985 0 0); /* Dark text on sidebar primary */
+  --sidebar-accent: oklch(0.269 0 0); /* Bright lime sidebar accent */
+  --sidebar-accent-foreground: oklch(0.985 0 0); /* Dark text on sidebar accent */
+  --sidebar-border: oklch(1 0 0 / 10%); /* Dark sidebar border */
+  --sidebar-ring: oklch(0.556 0 0); /* Bright lime sidebar ring */
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
