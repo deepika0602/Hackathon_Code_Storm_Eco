@@ -1,88 +1,62 @@
-<<<<<<< HEAD
-# ♻️ Smart Waste Classification Project
+# ♻️ Smart Waste Segregation & Recycling System
 
-## 📌 Overview
-This project classifies waste into **Biodegradable**, **Recyclable**, and **Hazardous** categories using **Machine Learning** and **Computer Vision**.  
-The aim is to assist in **automated waste segregation** using a camera feed.
+## 🚩 Problem
+Every year, millions of tons of waste are generated. Most of it is **not properly segregated**:
+- Recycling efficiency decreases
+- Landfills overflow
+- Soil, water, and air pollution increase
 
-## 🚀 Features
-- Frontend: Built with **React.js** (by Deepika) for user interface.  
-- Backend: **Node.js / Express** to handle API requests.  
-- Database: **MySQL** to store metadata (image paths, labels, predictions).  
-- ML/AI: **Python + TensorFlow/PyTorch** (Jupyter Notebook on Ubuntu) for waste classification.  
-- Camera Integration for real-time detection.  
+Large-scale waste management exists, but **citizen-level solutions** are critical for sustainable living.
 
-## 🛠️ Tech Stack
-- **Frontend:** React.js  
-- **Backend:** Node.js, Express  
-- **Database:** MySQL  
-- **Machine Learning:** Python, TensorFlow / PyTorch, OpenCV  
-- **IDE/Tools:** VS Code, Jupyter Notebook (Ubuntu)  
-- **Version Control:** Git + GitHub  
+---
 
-## 📂 Project Structure
-```
-/waste-classification
-│── frontend/          # React app
-│── backend/           # Node.js + Express server
-│── ml-model/          # Jupyter notebooks, ML training scripts
-│── dataset/           # Waste images (Biodegradable / Recyclable / Hazardous)
-│── database/          # SQL scripts & schema
-│── README.md          # Documentation
-```
+## 🎯 Our Solution
+We designed a **Smart Waste Segregation & Recycling System** that helps individuals and communities:
+- Automatically **classify waste** (biodegradable, recyclable, hazardous)  
+- Encourage proper **recycling habits**  
+- Provide **real-time recycling center information**  
+- Motivate users through **gamification & rewards**
 
-## 🔧 Setup Instructions
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/<your-username>/waste-classification.git
-   cd waste-classification
-   ```
+---
 
-2. **Frontend (React)**
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
+## ⭐ Key Features
+1. **AI-Powered Waste Classification**  
+   - Image recognition (TensorFlow / PyTorch)  
+   - Categories: Biodegradable 🥦, Recyclable 🔄, Hazardous ☣  
 
-3. **Backend (Node.js)**
-   ```bash
-   cd backend
-   npm install
-   node server.js
-   ```
+2. **Web/Mobile Application**  
+   - Users scan waste items using camera or barcode  
+   - App suggests correct disposal method  
 
-4. **Machine Learning (Ubuntu + Jupyter)**
-   ```bash
-   cd ml-model
-   jupyter notebook
-   ```
-   - Train the model with dataset  
-   - Export trained model (`.h5` or `.pt`)  
+3. **Recycling Center Integration**  
+   - Shows nearest drop-off points with hours, contact, and directions (Google Maps)  
 
-5. **Database (MySQL)**
-   ```sql
-   CREATE DATABASE waste_classification;
-   USE waste_classification;
-   -- import schema.sql
-   ```
+4. **Gamification & Rewards**  
+   - Points for recycling actions  
+   - Badges, coupons, and leaderboard to encourage sustainable habits  
 
-## 📊 Dataset
-- Using **Recyclable and Household Waste Classification Dataset (15k images, 30 classes)**  
-- Classes mapped into:
-  - **Biodegradable** → food, paper, garden waste, etc.  
-  - **Recyclable** → plastic, metal, glass, cardboard, etc.  
-  - **Hazardous** → batteries, e-waste, chemicals, etc.  
+---
 
-## 🎯 Future Work
-- Improve accuracy with YOLOv5 / MobileNetV2  
-- Mobile App integration  
-- Deploy model with FastAPI or Flask  
+## 🛠 Tech Stack
+- **Frontend**: React.js (Next.js)  
+- **Backend**: Node.js (Express)  
+- **Database**: MySQL  
+- **AI/ML**: TensorFlow or PyTorch  
+- **Maps Integration**: Google Maps API  
+
+---
+
+## 🌍 Impact
+- Encourages **eco-friendly behavior** at the citizen level  
+- Reduces waste mismanagement and **improves recycling efficiency**  
+- Creates awareness while making sustainability **fun and rewarding**  
+
+---
 
 ## 👩‍💻 Team
-- **Jahnavi (ML)**  
-- **Deepika (Frontend)**  
-- **Meghana (Backend)**
-=======
-# Hackathon_Code_Storm_Eco
->>>>>>> 8f12d05eee437897d4bcccc384390b272c8759e2
+Hackathon Project: *Hackathon Code Storm Eco*
+## 👩‍💻 Team Members
+- P. Deepika – 23951A0524  
+- N. Jahnavi – 23951A0538  
+- M. Harshitha – 23951A0531  
+- R. Meghana – 24955A0516  
