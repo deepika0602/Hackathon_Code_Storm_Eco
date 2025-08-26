@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ♻️ Smart Waste Segregation & Recycling System
 
-## Getting Started
+## 🚩 Problem
+Every year, millions of tons of waste are generated. Most of it is **not properly segregated**:
+- Recycling efficiency decreases
+- Landfills overflow
+- Soil, water, and air pollution increase
 
-First, run the development server:
+Large-scale waste management exists, but **citizen-level solutions** are critical for sustainable living.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Our Solution
+We designed a **Smart Waste Segregation & Recycling System** that helps individuals and communities:
+- Automatically **classify waste** (biodegradable, recyclable, hazardous)  
+- Encourage proper **recycling habits**  
+- Provide **real-time recycling center information**  
+- Motivate users through **gamification & rewards**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⭐ Key Features
+1. **AI-Powered Waste Classification**  
+   - Image recognition (TensorFlow / PyTorch)  
+   - Categories: Biodegradable 🥦, Recyclable 🔄, Hazardous ☣  
 
-## Learn More
+2. **Web/Mobile Application**  
+   - Users scan waste items using camera or barcode  
+   - App suggests correct disposal method  
 
-To learn more about Next.js, take a look at the following resources:
+3. **Recycling Center Integration**  
+   - Shows nearest drop-off points with hours, contact, and directions (Google Maps)  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Gamification & Rewards**  
+   - Points for recycling actions  
+   - Badges, coupons, and leaderboard to encourage sustainable habits  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
+- **Frontend**: React.js (Next.js)  
+- **Backend**: Node.js (Express)  
+- **Database**: MySQL  
+- **AI/ML**: TensorFlow or PyTorch  
+- **Maps Integration**: Google Maps API  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌍 Impact
+- Encourages **eco-friendly behavior** at the citizen level  
+- Reduces waste mismanagement and **improves recycling efficiency**  
+- Creates awareness while making sustainability **fun and rewarding**  
+
+---
+
+## 👩‍💻 Team
+Hackathon Project: *Hackathon Code Storm Eco*
