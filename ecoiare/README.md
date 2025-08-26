@@ -55,8 +55,8 @@ We designed a **Smart Waste Segregation & Recycling System** that helps individu
 
 ## 👩‍💻 Team
 Hackathon Project: *Hackathon Code Storm Eco*
-Team Members: 
-P.Deepika - 23951A0524
-N.Jahnavi - 23951A0538
-M.Harshitha - 23951A0531
-R.Meghana - 24955A0516
+## 👩‍💻 Team Members
+- P. Deepika – 23951A0524  
+- N. Jahnavi – 23951A0538  
+- M. Harshitha – 23951A0531  
+- R. Meghana – 24955A0516  
