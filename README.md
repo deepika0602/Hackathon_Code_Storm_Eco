@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ♻️ Smart Waste Classification Project
 
 ## 📌 Overview
@@ -82,3 +83,6 @@ The aim is to assist in **automated waste segregation** using a camera feed.
 - **Jahnavi (ML)**  
 - **Deepika (Frontend)**  
 - **Meghana (Backend)**
+=======
+# Hackathon_Code_Storm_Eco
+>>>>>>> 8f12d05eee437897d4bcccc384390b272c8759e2
