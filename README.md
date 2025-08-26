@@ -79,6 +79,6 @@ The aim is to assist in **automated waste segregation** using a camera feed.
 - Deploy model with FastAPI or Flask  
 
 ## 👩‍💻 Team
-- **Jaanu (ML)**  
+- **Jahnavi (ML)**  
 - **Deepika (Frontend)**  
 - **Meghana (Backend)**
